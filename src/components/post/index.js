@@ -33,7 +33,7 @@ export default function Post({ content }) {
     );
 }
 
-Post.PropTypes = {
+Post.propTypes = {
     content: PropTypes.shape({
         username: PropTypes.string.isRequired,
         imageSrc: PropTypes.string.isRequired,
@@ -42,6 +42,6 @@ Post.PropTypes = {
         userLikedPhoto: PropTypes.bool.isRequired,
         likes: PropTypes.array.isRequired,
         comments: PropTypes.array.isRequired,
-        dataCreated: PropTypes.number.isRequired
+        dateCreated: PropTypes.number.isRequired
     })
 };
