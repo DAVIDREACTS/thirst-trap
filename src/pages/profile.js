@@ -22,7 +22,7 @@ export default function Profile() {
                 //setUserExists(true);
             } else {
                 //setUserExists(false);
-                history.push(ROUTES.NOT_FOuND);
+                history.push(ROUTES.NOT_FOUND);
             }
         }
 
